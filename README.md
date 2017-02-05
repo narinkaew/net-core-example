@@ -2,4 +2,4 @@
 
 Examples
 
-Sample projects for my blog at http://narinkaew.com.
+Sample applications for blog posts on http://narinkaew.com
