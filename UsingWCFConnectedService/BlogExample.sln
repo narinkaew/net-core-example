@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B803B11-D205-4B7D-82A7-DB75D6BFAF45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD49B172-AF68-4104-9E93-B6E952AF0A0A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BlogExample", "src\BlogExample\BlogExample.xproj", "{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogExample.WcfService", "src\BlogExample.WcfService\BlogExample.WcfService.csproj", "{89AC80AF-8CE4-4399-80A6-623099A50407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AC80AF-8CE4-4399-80A6-623099A50407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AC80AF-8CE4-4399-80A6-623099A50407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AC80AF-8CE4-4399-80A6-623099A50407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AC80AF-8CE4-4399-80A6-623099A50407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B56F8F2D-709F-4756-91FF-5CCFC31B5AD1} = {2B803B11-D205-4B7D-82A7-DB75D6BFAF45}
+	EndGlobalSection
+EndGlobal
