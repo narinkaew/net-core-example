@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -f "Server=.;Database=BlogExample;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Entity
