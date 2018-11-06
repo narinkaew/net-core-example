@@ -1,7 +1,10 @@
 language: csharp
-solution: BlogExample.sln
-dotnet: 1.0.0-preview2-1-003177
+dist: trusty
+dotnet: 1.1.1
 mono: none
+
+install:
+- dotnet restore
+
 script:
- - dotnet restore
- - bundle exec rake build
+- dotnet build
